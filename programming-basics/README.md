@@ -12,3 +12,5 @@ Suoritusjärjestys on seuraava:
 5. harjoitustehtävät (https://github.com/ekoodi/ekoodi.github.io/tree/master/programming-tasks)
 
 Tehtävät laaditaan VisualStudio 2015 editorilla/C# -ohjelmontikielellä ja tuotokset julkaistaa jokaisen omaan github versionhallintaan.
+
+# Tarvitsee päivityksen, käy nykyiset harjoitukset läpi, lisää linkkejä muihin C# harjoitusresursseihin
