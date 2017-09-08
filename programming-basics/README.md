@@ -1,6 +1,6 @@
 # Ohjelmoinnin perusteet C#-ohjelmointikielellä
 
-Tänne on laadittu perustehtäviä ohjelmoinnin perusteiden opiskelua varten. Itsenäinen tiedonhaku ja oppiminen on tärkeä osa kurssia, kielen syntaksiin tutustumiseen löytyy hyviä oppaita netistä. Kirjallisuutta ja linkkejä on koottu [kurssin wikiin](https://github.com/ekoodi/ekoodi-2/wiki/Ohjelmoinnin-perusteet). 
+Tänne on laadittu perustehtäviä ohjelmoinnin perusteiden opiskelua varten. Itsenäinen tiedonhaku ja oppiminen on tärkeä osa kurssia, kielen syntaksiin tutustumiseen löytyy hyviä oppaita netistä. Kirjallisuutta ja linkkejä on koottu kurssin [wikiin](https://github.com/ekoodi/ekoodi-2/wiki/Ohjelmoinnin-perusteet). 
 
 Tehtävien avulla on tarkoitus tutustua C#-ohjelmointikieleen ja sen syntaksiin. Tehtävät löytyvät omista teemakansioistaan.
 Suositeltu suoritusjärjestys on seuraava:
