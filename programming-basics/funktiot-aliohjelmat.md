@@ -19,7 +19,7 @@ Vastaus: Numero -2 ei ole salittu luku.
 Luvut välitetään funktiolle parametrina.
 
 
-##3. Kirjoita funktio, joka pyytää käyttäjältä luvun annetulta väliltä ja tarkastaa luvun kelpoisuuden.
+## 3. Kirjoita funktio, joka pyytää käyttäjältä luvun annetulta väliltä ja tarkastaa luvun kelpoisuuden.
 
 Mikäli luku ei ole annetulta väliltä tai se ei ole numeraalinen, sitä pyydetään funktiossa uudelleen.
 Funktio palauttaa käyttäjän syöttämän luvun. Funktiota kutsutaan seuraavasti:
