@@ -54,4 +54,4 @@ Debugaa ohjelmaa ja totea luokan toiminta.
 - [Object-Oriented Programming](https://msdn.microsoft.com/en-us/library/mt656686.aspx)
 - [Class](https://msdn.microsoft.com/en-us/library/x9afc042.aspx)
 - [Properties](https://msdn.microsoft.com/en-us/library/x9fsa0sw.aspx)
-- [Best Practices Microsoft MSDN] (https://msdn.microsoft.com/en-us/library/ms184412(v=vs.100).aspx)
+- [Best Practices Microsoft MSDN](https://msdn.microsoft.com/en-us/library/ms184412(v=vs.100).aspx)
