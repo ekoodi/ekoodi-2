@@ -1,4 +1,7 @@
-# Tutustu [merkkijonoihin](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/) ja [merkkijonoluokan metodeihin](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netcore-2.0).
+# Orientaatio
+
+Tutustu ensin [merkkijonoihin](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/) ja [merkkijonoluokan metodeihin](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netcore-2.0). 
+
 Selvitä vähintään seuraavien metodien käyttö.
 
 - IndexOf
