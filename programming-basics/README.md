@@ -9,6 +9,7 @@ Suositeltu suoritusjärjestys on seuraava:
 2. silmukka
 3. funktiot ja aliohjelmat
 4. merkkijonon käsittely
+5. olio-ohjelmoinnin perusteet
 
 Ensimmäisen vaiheen tehtävät toteutetaan [Visual Studio 2017](https://www.visualstudio.com/vs/) -kehitysympäristöä käyttäen [.NET Core konsolisovelluksina](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio) ja julkaistaan jokaisen kurssilaisen henkilökohtaiseen GitHub-versionhallintaan.
 
