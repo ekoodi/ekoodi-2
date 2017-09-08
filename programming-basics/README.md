@@ -1,16 +1,14 @@
-# Ohjelmoinnin perusteet C# -ohjelmointikielellä
+# Ohjelmoinnin perusteet C#-ohjelmointikielellä
 
-Tänne on laadittu perustehtäviä ohjelmoinnin perusteiden opiskelua varten. Syntaksiin löytyy hyviä oppaita netistä. Ohessa linkki, jonne on listattu kirjallisuutta ja linkkejä. https://github.com/ekoodi/ekoodi.github.io/wiki/Ohjelmoinnin-perusteet
+Tänne on laadittu perustehtäviä ohjelmoinnin perusteiden opiskelua varten. Itsenäinen tiedonhaku ja oppiminen on tärkeä osa kurssia, kielen syntaksiin löytyy hyviä oppaita netistä. Kirjallisuutta ja linkkejä on koottu [kurssin wikiin](https://github.com/ekoodi/ekoodi-2/wiki/Ohjelmoinnin-perusteet). 
 
 Tehtävien avulla on tarkoitus tutustua C#-ohjelmointikieleen ja sen syntaksiin. Tehtävät löytyvät omista teemakansioistaan.
-Suoritusjärjestys on seuraava:
+Suositeltu suoritusjärjestys on seuraava:
 
 1. ehtorakenne
 2. silmukka
 3. funktiot ja aliohjelmat
 4. merkkijonon käsittely
-5. harjoitustehtävät (https://github.com/ekoodi/ekoodi.github.io/tree/master/programming-tasks)
 
-Tehtävät laaditaan VisualStudio 2015 editorilla/C# -ohjelmontikielellä ja tuotokset julkaistaa jokaisen omaan github versionhallintaan.
+Ensimmäisen vaiheen tehtävät toteutetaan [Visual Studio 2017](https://www.visualstudio.com/vs/) -kehitysympäristöä käyttäen [.NET Core konsolisovelluksina](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio) ja julkaistaan jokaisen kurssilaisen henkilökohtaiseen GitHub-versionhallintaan.
 
-# Tarvitsee päivityksen, käy nykyiset harjoitukset läpi, lisää linkkejä muihin C# harjoitusresursseihin
