@@ -1,6 +1,6 @@
 # Tervetuloa EKOODI-ohjelmointikoulutukseen!
 
-![Koulutuksen aikataulu ja sisältö löytyy Wikistä](https://github.com/ekoodi/ekoodi-2/wiki/Ty%C3%B6kalut)
+![Koulutuksen aikataulu ja sisältö löytyy Wikistä](https://github.com/ekoodi/ekoodi-2/wiki/)
 
 Linkkejä kurssilla käytettäviin työkaluihin on koottu kurssin [wikiin](https://github.com/ekoodi/ekoodi-2/wiki/Ty%C3%B6kalut). 
 
