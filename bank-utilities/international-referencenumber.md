@@ -9,7 +9,7 @@ Sovelluksen tulee tukea kansainvälisen viitenumeron tarkistamista ja luomista.
 Sovelluksen tulee toteuttaa seuraavat toiminnallisuudet:
 
 1. Kansainvälisen viitenumeron tarkistaminen
-2. Kansainvälisen viitenumeron luominen, joko yksittäin tai useita viitenumeroita kerrallaan
+2. Kansainvälisen viitenumeron luominen, suomalaisen viitenumeron pohjalta
 
 ### Määrittelyt
 
