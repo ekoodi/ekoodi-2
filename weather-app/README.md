@@ -1,11 +1,22 @@
 # weather-app
 
+Tutustu [OpenWeatherMap](https://openweathermap.org/) API dokumentaatioon:
+https://openweathermap.org/api
+
+Tutustu HttpClient luokkaan ja sen käyttöön:
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
+https://msdn.microsoft.com/en-us/library/system.net.http.httpclient(v=vs.118).aspx
+
+## TODO
+Tee Windows Console Application, joka
+- näyttää valitun paikkakunnan (käyttäjä voi syöttää) tämän hetkisen sään
+	- lämpötila
+	- tuulen nopeus
+	- kuvaus säästä (poutaa, pilvistä, puolipilvistä jne.)
+- näyttää ennusteen säästä seuraavalle seitsemälle päivälle
+
+Luo sääkyselyitä varten oma luokkakirjasto, jonka funktioita kutsutaan pääohjelmasta.
+
+API:iin lähetettävissä HTTP-kutsuissa (sääkyselyissä) käytetään .NET-frameworkistä löytyvää HttpClientia. 
 
 
-## Koulutuksen aikataulu ja sisältö
-
-![Koulutuksen aikataulu](https://github.com/ekoodi/ekoodi-2/blob/master/assets/ekoodi-2-ops.png)
-
-Linkkejä kurssilla käytettäviin työkaluihin on koottu kurssin [wikiin](https://github.com/ekoodi/ekoodi-2/wiki/Ty%C3%B6kalut). 
-
-Kurssin ensimmäisessä vaiheessa tutustutaan [C#-ohjelmointikieleen](https://github.com/ekoodi/ekoodi-2/wiki/Ty%C3%B6kalut) ja [.NET ympäristöön](https://www.microsoft.com/net/) käytännön harjoitusten kautta. Ensimmäisen vaiheen ohjelmointiharjoituksen löytyvät [programming-basics](https://github.com/ekoodi/ekoodi-2/tree/master/programming-basics)-kansiosta.
