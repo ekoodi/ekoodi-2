@@ -13,7 +13,7 @@ Tee Windows Console Application, joka
 	- lämpötila
 	- tuulen nopeus
 	- kuvaus säästä (poutaa, pilvistä, puolipilvistä jne.)
-- näyttää ennusteen säästä seuraavalle seitsemälle päivälle
+- näyttää ennusteen säästä seuraavalle viidelle päivälle
 
 Luo sääkyselyitä varten oma luokkakirjasto, jonka funktioita kutsutaan pääohjelmasta.
 
