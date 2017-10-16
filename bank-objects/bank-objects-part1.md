@@ -48,7 +48,7 @@ Tee seuraavat käyttäen SQL-kyselyitä. Älä oikaise käyttämällä Managemen
     <br><br>Huom! mieti toiminnallisuuden jakamista useampiin luokkiin, ettei yhden luokan koodimäärä paisu liian suureksi.
     Esim. tiettyyn tauluun kohdistuvat toiminnot omaan luokkaansa.<br>
     
-8. Testaa tekemiäsi funktioita console-sovelluksen pääohjelmassa.
+8. Testaa tekemiäsi funktioita console-sovelluksen pääohjelmassa. Ei tarvitse tehdä console-käyttöliittymää ellei välttämättä halua. Eli "kovakoodaten" riittää.
 
 
 ## Links
