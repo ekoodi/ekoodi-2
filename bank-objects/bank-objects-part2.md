@@ -28,6 +28,7 @@ Tässä voidaan hyödyntää aiemmassa vaiheessa (part1) luotua luokkakirjastoa.
 - Client lähettää rajapintaan Http-kutsun. [Esimerkki](https://www.kirupa.com/html5/making_http_requests_js.htm)
 - Web API -sovellukseen tehdään rajapinta, joka ottaa Http-kutsun vastaan (Controller)
     - Huom! Tee jokaista model-luokkaa kohti oma controller (BankController, CustomerController, AccountController, TransactionController)
+    ja controllereihin tarvittavat metodit (HttpGet, HttpPost, HttpPut, HttpDelete)
 - Web API käyttää olemassa olevaa luokkakirjastoa datan hakuun/päivitykseen.
 - Web API palauttaa vastauksen clientille
 - Client käsittelee Http responsen.
