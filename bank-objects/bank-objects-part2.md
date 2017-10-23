@@ -21,14 +21,18 @@ Luo "kovakoodaten" tarivittavat objectit sovelluksen käynnistyessä ja käytä 
 ## .NET Core Web API
 
 Luo uusi Web API-projekti samaan Visual Studio solutioniin edellisen tehtävän Console Appin ja luokkakirjaston kanssa.
+Ohjeet löytyvät [täältä](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api). 
+Tavoitteena olisi luoda [rajapinta](http://www.restapitutorial.com/), jonka kautta web-sovellus pystyisi hakemaan/päivittämään kannassa olevaa dataa.
+Tässä voidaan hyödyntää aiemmassa vaiheessa (part1) luotua luokkakirjastoa.
 
+- Client lähettää rajapintaan Http-kutsun. [Esimerkki](https://www.kirupa.com/html5/making_http_requests_js.htm)
+- Web API -sovellukseen tehdään rajapinta, joka ottaa Http-kutsun vastaan (Controller)
+    - Huom! Tee jokaista model-luokkaa kohti oma controller (BankController, CustomerController, AccountController, TransactionController)
+- Web API käyttää olemassa olevaa luokkakirjastoa datan hakuun/päivitykseen.
+- Web API palauttaa vastauksen clientille
+- Client käsittelee Http responsen.
 
-Ohjeet tulossa...
-
-- Dependency Injection
-- Arkkitehtuuri
-- Postman
-- ...
+[Postman](https://www.getpostman.com/) on näppärä työkalu, jolla pystyy helposti testailemaan Http kutsujen lähetystä.
 
 
 ## Links
@@ -47,3 +51,5 @@ Ohjeet tulossa...
 [.NET Core Web API](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
 <br>
 [REST Tutorial](https://www.tutorialspoint.com/restful/restful_introduction.htm)
+<br>
+[REST API Tutorial](http://www.restapitutorial.com/)
