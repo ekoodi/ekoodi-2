@@ -19,6 +19,14 @@ Konfiguroi sovellukseen routet seuraavia näkymiä varten:
  Lisää <router-outlet></router-outlet> app.component.html:ään. 
  Edellä konffatut routet (routen komponentit) ilmestyvät angular routerin toimesta tähän kohtaan.
  
+ #### Käyttäjän lisäys
+ 
+ Uuden käyttäjän tallennuksessa UserService keksii käyttäjälle id:n olemassa olevien id:iden perusteella:
+ <br>
+ id = suurin olemassa oleva id + 1.
+ <br>
+ Tässä voi hyödyntää vaikka lodashin [maxBy](https://lodash.com/docs/4.17.4#maxBy)-funktiota.
+ 
  ## UI
  - Lisää AppComponentin templateen toolbar ja sidenav, jotka toimivat "kehyksenä" RouterOutletissa vaihtuville komponenteille.
  - Lisää ContactListComponentille "Lisää"-nappi, jolla navigoidaan routeria käyttäen ContactDetailsComponentille ja voidaan perustaa uusi yhteystieto.
