@@ -4,7 +4,7 @@ Toteutetaan sovellukseen alustava käyttäjän kirjautumiseen liittyvä toiminna
 
 ## Projektin rakenne
 
-kuva
+<img height=500 src="https://raw.githubusercontent.com/ekoodi/ekoodi-2/master/assets/contacts-app-authentication.png"></img>
 
 ### User
 
@@ -20,7 +20,7 @@ Käyttäjä kirjautuu käyttäjänimen tai sähköpostiosoitteen (userName) ja s
 
 Komponentti, joka toteuttaa käyttäjän kirjautumiseen liittyvän käyttöliitymän. Esimerkiksi:
 
-kuva
+<img height=350 src="https://raw.githubusercontent.com/ekoodi/ekoodi-2/master/assets/contacts-app-login-view.png"></img>
 
 ### Authentication Service
 
