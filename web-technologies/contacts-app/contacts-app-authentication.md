@@ -24,7 +24,7 @@ Komponentti, joka toteuttaa käyttäjän kirjautumiseen liittyvän käyttöliity
 
 ### Authentication Service
 
-Palvelu, joka toteuttaa alustavassa toteutuksessa toiminnallisuuden käyttäjän sisään kirjautumiseen, ulos kirjatumiseen ja kirjautumisstatuksen tarkistamiseen. Palveluun voi toteuttaa myös toiminnallisuuden kirjautuneen käyttäjän tietojen hakemiseen, toiminnallisuutta voidaan käyttää kirjautuneen käyttäjän tietojen esittämiseen käyttöliittymässä. Alustavassa toteutuksessa käyttäjän kirjautumistietojen tarkistus tehdään palvelun toimesta, käyttäen palvelun toteutukseen koodattuja kirjautumistietoja, joita vasten käyttäjän syöttämät kirjautumistiedot tarkistetaan. Metodit, esimerkiksi:
+Palvelu, joka toteuttaa alustavassa toteutuksessa toiminnallisuuden käyttäjän sisään kirjautumiseen, ulos kirjautumiseen ja kirjautumisstatuksen tarkistamiseen. Palveluun voi toteuttaa myös toiminnallisuuden kirjautuneen käyttäjän tietojen hakemiseen, toiminnallisuutta voidaan käyttää kirjautuneen käyttäjän tietojen esittämiseen käyttöliittymässä. Alustavassa toteutuksessa käyttäjän kirjautumistietojen tarkistus tehdään palvelun toimesta, käyttäen palvelun toteutukseen koodattuja kirjautumistietoja, joita vasten käyttäjän syöttämät kirjautumistiedot tarkistetaan. Metodit, esimerkiksi:
 - login
 - logout
 - isAuthenticatedUser
@@ -36,7 +36,7 @@ Optionaalisesti, toteutetaan lisäksi sovelluksen reititystoiminnallisuuteen suo
 
 #### Authentication Guard, CanActivate
 
-Toteuta sovellukseen AuthenticationGuard, jonka avulla sallitaan suojattuihin näkymiin navigointi vain kirjautuneille käyttäjille. AuthenticationGuard toteuttaa Angularin routerin CanActivate rajapinnan mukaisen toiminnallisuuden, toteutuksessa voidaan tarkistaa käyttäjän kirjautumissatus käyttäen toteutettua Authentication Servicen metodia.
+Toteuta sovellukseen AuthenticationGuard, jonka avulla sallitaan suojattuihin näkymiin navigointi vain kirjautuneille käyttäjille. AuthenticationGuard toteuttaa Angularin routerin CanActivate-rajapinnan mukaisen toiminnallisuuden, toteutuksessa voidaan tarkistaa käyttäjän kirjautumissatus käyttäen toteutettua Authentication Servicen metodia.
 
 #### Routes
 
@@ -44,4 +44,7 @@ Ota AuthenticationGuard käyttöön suojattaville routeille, routen määrittely
 
 ## Links
 
-linkit
+ [Angular Router](https://angular.io/guide/router)
+ <br>
+ [Protecting Angular v2+ Routes](https://scotch.io/tutorials/protecting-angular-v2-routes-with-canactivatecanactivatechild-guards)
+ <br>
