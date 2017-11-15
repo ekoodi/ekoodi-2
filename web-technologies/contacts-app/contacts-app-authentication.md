@@ -4,7 +4,7 @@ Toteutetaan sovellukseen alustava käyttäjän kirjautumiseen liittyvä toiminna
 
 ## Projektin rakenne
 
-<img height=500 src="https://raw.githubusercontent.com/ekoodi/ekoodi-2/master/assets/contacts-app-authentication.png"></img>
+<img height=350 src="https://raw.githubusercontent.com/ekoodi/ekoodi-2/master/assets/contacts-app-authentication.png"></img>
 
 ### User
 
