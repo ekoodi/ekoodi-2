@@ -31,11 +31,11 @@ Muokkaa olemassa olevaa contacts-app repositorya siten, että luot sinne kaksi u
     
     
  Luo ContactController, joka tarjoaa seuraavat metodit:
-    - HttpGet: Kaikkien contactien haku 
-    - HttpGet: Contactin haku id:llä
-    - HttpPost: Uuden contactin luonti
-    - HttpPut: Vanhan contactin päivitys
-    - HttpDelete: Contactin poisto
+- HttpGet: Kaikkien contactien haku 
+- HttpGet: Contactin haku id:llä
+- HttpPost: Uuden contactin luonti
+- HttpPut: Vanhan contactin päivitys
+- HttpDelete: Contactin poisto
     
  Metodien testaamiseen ja Http-kutsujen lähettämiseen kannattaa hyödyntää [Postmania](https://www.getpostman.com/).
     
