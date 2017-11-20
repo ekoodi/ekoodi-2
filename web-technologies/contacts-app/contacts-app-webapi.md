@@ -1,4 +1,4 @@
-#contacts-app back-end (API)
+# contacts-app back-end (API)
 Harjoituksessa toteutetaan .NET Core Web API sovellus, joka toimii back-endinä contacts-app Angular-sovellukselle.
 
 ### Repository
