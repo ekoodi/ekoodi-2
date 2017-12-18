@@ -19,7 +19,7 @@ Toteutetaan sovellukseen autentikointi Azuren Active Directorya vasten. Suojataa
 Tutustu [OAuth2 protokollaan](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols).
 
 Testaa autentikointia postmanilla. Esimerkki löytyy [flowdockista](https://www.flowdock.com/app/saimia/webapps/threads/sM5uD3l6YC9ZtDG1KaF4H3J-qbc).
-- Http Post osoitteeseen https://login.windows.net/<directoryId>/oauth2/token.
+- Http Post osoitteeseen https://login.windows.net/directoryId/oauth2/token.
 - bodyyn:
     -  username: aiemmin luodun AD-käyttäjän käyttäjätunnus
     -  password: aiemmin luodun AD-käyttäjän salasana
