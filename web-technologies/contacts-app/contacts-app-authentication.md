@@ -3,7 +3,9 @@
 Toteutetaan sovellukseen autentikointi Azuren Active Directorya vasten. Suojataan API autentikoinnilla.
 
 "<b>Authentication</b> is the process of ascertaining that somebody really is who he claims to be.
-<b>Authorization</b> refers to rules that determine who is allowed to do what."
+<br><b>Authorization</b> refers to rules that determine who is allowed to do what."
+
+<img src="https://raw.githubusercontent.com/ekoodi/ekoodi-2/master/assets/Authentication.png"></img>
 
 ## Azure
 ### Azure Active Directory
