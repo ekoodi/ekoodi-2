@@ -47,13 +47,28 @@ Tokenin hakuun liittyvät toiminnot kannattaa laittaa omaan serviceensä (esim. 
 Suojaa back-endin rajapinta autentikoinnilla. Tähän löytyy ohjetta mm. [täältä](https://docs.microsoft.com/en-us/azure/architecture/multitenant-identity/web-api) ja [flowdockista](https://www.flowdock.com/app/saimia/webapps/threads/sM5uD3l6YC9ZtDG1KaF4H3J-qbc).
 Testaa rajapinnan kutsumista Postmanilla. Kokeile tokenilla ja ilman tokenia. [Ohjeet](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-protocols-oauth-code#use-the-access-token-to-access-the-resource) tokenin välittämiseen Http-requestin headerissa.
 
+Huom! Rajapinnan täytyy palauttaa HTTP status code 401 Unauthorized, jos autentikointi ei onnistu (käyttäjätunnus/salasana ei täsmää).
+
 
 ## Web app
 ### Web App autentikointi ja kirjautuminen
-TODO
+Toteuta web-sovellukseen kirjautumisnäyttö (uusi route), jolla käyttäjä syöttää käyttäjätunnuksen ja salasanan.
+Kirjaudu-painikkeen klikkauksella sovellus autentikoi käyttäjän kutsumalla edellisessä vaiheessa tehtyä autentikointirajapintaa.
+Jos autentikointi onnistui, käyttäjä pääsee sisään sovellukseen. Samalla sovellus ottaa talteen autentikoinnissa saadun access tokenin. 
 
-### Web App Http Interceptor ja tokenin lähetys
-TODO
+Mikäli autentikointi epäonnistuu, annetaan käyttäjälle virheilmoitus. Käytä virheiden nappaamiseen/käsittelyyn seuraavan kohdan HttpInterceptoria. 
+Virheilmoituksen voi näyttää vaikka Angular Materialin [dialogissa](https://material.angular.io/components/dialog/overview).
+
+
+### Web App HttpInterceptor ja tokenin lähetys
+Jotta autentikoinnilla suojattua rajapintaa api/contacts voidaan kutsua, täytyy autentikoinnissa saatu token välittää jokaisessa
+rajapintakutsussa. Token asetetaan HTTP-kutsun Authorization headeriin.
+
+Hyödynnä tokenin välityksessä Angularin [HttpInterceptoria](https://angular.io/api/common/http/HttpInterceptor), jolla tokenin saa keskitetysti lisättyä jokaisen kutsun headeriin.
+Esimerkki HttpInterceptorin käytöstä löytyy [täältä](https://www.intertech.com/Blog/angular-4-tutorial-handling-refresh-token-with-new-httpinterceptor/) ja
+lisää ohjeita [täältä](https://www.google.com).
+
+Huom! HttpInterceptor on kätevä myös HTTP-kutsuissa tapahtuvien virheiden käsittelemiseen keskitetysti.
 
 # Links
 [Azure AD App Registrations](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications)
@@ -63,3 +78,5 @@ TODO
 [FlowDock]([flowdockista](https://www.flowdock.com/app/saimia/webapps/threads/sM5uD3l6YC9ZtDG1KaF4H3J-qbc))
 
 [JWT](https://jwt.io/introduction/)
+
+[Angular HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor)
