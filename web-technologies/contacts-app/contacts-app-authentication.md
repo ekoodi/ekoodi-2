@@ -65,7 +65,7 @@ Jotta autentikoinnilla suojattua rajapintaa api/contacts voidaan kutsua, täytyy
 rajapintakutsussa. Token asetetaan HTTP-kutsun Authorization headeriin.
 
 Hyödynnä tokenin välityksessä Angularin [HttpInterceptoria](https://angular.io/api/common/http/HttpInterceptor), jolla tokenin saa keskitetysti lisättyä jokaisen kutsun headeriin.
-Esimerkki HttpInterceptorin käytöstä löytyy [täältä](https://www.intertech.com/Blog/angular-4-tutorial-handling-refresh-token-with-new-httpinterceptor/) ja
+Esimerkki HttpInterceptorin käytöstä löytyy [täältä](https://www.intertech.com/Blog/angular-4-tutorial-handling-refresh-token-with-new-httpinterceptor/) ja [täältä](https://juristr.com/blog/2017/08/intercept-http-requests-in-angular/) ja
 lisää ohjeita [täältä](https://www.google.com).
 
 Huom! HttpInterceptor on kätevä myös HTTP-kutsuissa tapahtuvien virheiden käsittelemiseen keskitetysti.
@@ -75,7 +75,7 @@ Huom! HttpInterceptor on kätevä myös HTTP-kutsuissa tapahtuvien virheiden kä
 
 [Azure OAuth 2](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols).
 
-[FlowDock]([flowdockista](https://www.flowdock.com/app/saimia/webapps/threads/sM5uD3l6YC9ZtDG1KaF4H3J-qbc))
+[FlowDock](https://www.flowdock.com/app/saimia/webapps/threads/sM5uD3l6YC9ZtDG1KaF4H3J-qbc)
 
 [JWT](https://jwt.io/introduction/)
 
